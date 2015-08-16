@@ -7,5 +7,4 @@ class UserMailerPreview < ActionMailer::Preview
     user.activation_token = User.new_token
     UserMailer.account_activation(user)
   end
-
 end
